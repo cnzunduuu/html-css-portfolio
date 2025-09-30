@@ -1,0 +1,25 @@
+:root {
+  --text-color: #111a19;
+  --link-color: #809076;
+  --background-color: #F8D794;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: var(--background-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
