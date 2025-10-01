@@ -23,3 +23,11 @@ a {
   color: var(--link-color);
   text-decoration: none;
 }
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
