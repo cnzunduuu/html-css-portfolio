@@ -174,13 +174,13 @@ img {
 
 .skill i {
   font-size: 50px;
-  color: #809076; /* your accent link green */
+  color: #809076; 
 }
 
 .skill p {
   margin-top: 10px;
   font-size: 16px;
-  color: #111A19; /* your main text */
+  color: #111A19; 
 }
 
 .status {
