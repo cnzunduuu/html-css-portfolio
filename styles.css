@@ -113,8 +113,20 @@ img {
 
 /* Section 1: Hero */
 @media (max-width: 850px) {
-
+  .hero-section .text h2 {
+    font-size: 35px;
+  }
 }
+
+@media (max-width: 740px) {
+  .hero-section  {
+    flex-direction: column-reverse;
+  }
+}
+
+.hero-section .headshot img {
+  width: 300px;
+  }
 
 @media (max-width: 600px) {
   /* NAVBAR */
@@ -135,4 +147,13 @@ img {
   nav .right a span {
     display: none;
   }
+}
+
+/* Section 1: Hero */
+.hero-section {
+  padding: 0 20px;
+}
+
+.hero-section .text h2 {
+  font-size: 30px;
 }
