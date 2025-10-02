@@ -69,6 +69,7 @@ nav .right a span {
     nav .right a:last-child {
     color: var(--text-color);
     background-color: transparent;
+    padding: 0;
   }
 
   nav .right a span {
