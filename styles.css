@@ -191,6 +191,16 @@ img {
 
 /* Section 3: Projects */
 
+h2 {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 900px;
+}
+p {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 900px;
+}
 .row,
 .row > .column {
   padding: 8px;
