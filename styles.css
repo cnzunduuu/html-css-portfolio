@@ -69,7 +69,8 @@ nav .right a span {
 }
 
 img {
-  width: 100%;
+  aspect-ratio: 1/1;
+  width: 350px;
   height: auto;
 }
 
@@ -122,11 +123,23 @@ img {
   .hero-section  {
     flex-direction: column-reverse;
   }
-}
 
-.hero-section .headshot img {
+  .hero-section .headshot img {
   width: 300px;
   }
+
+/* Section 4: Testimony */
+.testimony-section {
+  text-align: center;
+
+}
+.testimony-section .group {
+  flex-direction: column;
+}
+
+}
+
+
 
 @media (max-width: 600px) {
   /* NAVBAR */
@@ -234,4 +247,47 @@ p {
   .column {
     width: 100%;
   }
+}
+
+/* Section 4: Testimony */
+
+.testimony-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+.testimony-section h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.testimony-section .group {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.testimony-section .group .person-details {
+  text-align: center;
+  flex: 2;
+}
+
+.testimony-section .group .text {
+  flex: 8;
+}
+
+.testimony-section .group .person-details img {
+  aspect-ratio: 1/1;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimony-section .group .person-details p {
+  font-weight: 600;
+}
+
+.testimony-section .group .person-details p:last-child {
+  font-weight: normal;
 }
