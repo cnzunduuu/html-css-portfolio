@@ -17,6 +17,7 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   background-color: var(--background-color);
+  max-width: 1400px;
 }
 
 a {
@@ -137,6 +138,12 @@ img {
   flex-direction: column;
 }
 
+/* Section 4: Testimony */
+
+.contact-section .group {
+  flex-direction: column;
+}
+
 }
 
 
@@ -247,6 +254,13 @@ p {
   .column {
     width: 100%;
   }
+
+  /* Section 4: Testimony */
+
+.contact-section {
+  padding: 0 20px;
+}
+
 }
 
 /* Section 4: Testimony */
@@ -290,4 +304,58 @@ p {
 
 .testimony-section .group .person-details p:last-child {
   font-weight: normal;
+}
+
+/* Section 5: Contact */
+
+.contact-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+.contact-section h2 {
+  font-size: 35px;
+}
+
+.contact-section .group {
+  display: flex;
+  gap: 50px;
+}
+
+.contact-section .group .text {
+  flex: 3;
+  margin-top: 20px;
+}
+
+.contact-section .group form {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section .group form input,
+.contact-section .group form textarea {
+  font-family: "Raleway", sans-serif;
+  border: 2px solid #284139;
+  background-color: #f8d794;
+  padding: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  resize: none;
+
+}
+
+.contact-section .group form button {
+font-size: 16px;
+font-family: "Raleway", sans-serif;
+color: #ffffff;
+background-color: #284139;
+border: none;
+height: 50px;
+transition: .1s;
+cursor: pointer;
+}
+
+.contact-section .group form button:hover {
+  filter: brightness(.9);
 }
