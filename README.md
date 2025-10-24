@@ -1,3 +1,7 @@
+# 🌸 My Portfolio Website  
+Live Demo: [Click here to view my portfolio](https://cnzunduuu.github.io/)  
+
+
 **My First Portfolio Page README.md**
 
 
@@ -47,6 +51,4 @@ As I build up my skillset, in particularly with JavaScript, I plan to revisit th
 **Learning Reflections**
 This project has been an excellent opportunity to put theory into practice. It has helped me gain confidence in using foundational web technologies and has reinforced my belief that I can successfully build a great future in computer science.
 
-**Live Demo**
-Link coming soon
  
